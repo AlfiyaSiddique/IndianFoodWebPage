@@ -1,0 +1,29 @@
+@media (max-width: 500px){
+    .pad1{
+        padding: 30px;
+    }
+ 
+    #plate .pad1{
+        padding: 0;
+     }
+
+     #cuisine p{
+        padding: 0;
+     }
+     .half div{
+        padding: 20px;
+     }
+
+     #plate{
+       padding: 10px;
+     }
+    .grid-img img{
+        max-width: 70%;
+    }
+
+    #menu .grid{
+        padding: 30px;
+    }
+
+    
+}

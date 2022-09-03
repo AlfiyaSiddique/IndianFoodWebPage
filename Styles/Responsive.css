@@ -1,0 +1,152 @@
+@media (max-width:785px) {
+    #home h3 {
+        justify-self: flex-start;
+        margin: 0;
+    }
+
+    .fa-bars,
+    .fa-times {
+        font-size: 2rem;
+        color: var(--white);
+    }
+
+    #bar-icon {
+        justify-self: end;
+    }
+
+    ul {
+        position: fixed;
+        top: 0;
+        right: -40rem;
+        width: 40vw;
+        background-color: red;
+        height: 100vh;
+        z-index: 3;
+        background-color: white;
+        box-shadow: 1px 1px 3 grey;
+        padding-top: 3rem;
+    }
+
+    nav ul li a {
+        color: black;
+    }
+
+    nav ul li {
+        list-style: none;
+        padding: 20px;
+        font-size: 20px;
+        box-shadow: 1px 1px 2px 2px rgb(198 192 192 / 14%);
+    }
+
+    .fa-times{
+        color: black;
+    }
+
+    .crossUp {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 4;
+    }
+
+    .text1 {
+        font-size: 2rem;
+    }
+
+    #home .container {
+        width: 80vw;
+    }
+
+    #home {
+        padding: 0;
+    }
+    
+    .circle{margin-top: 2rem;}
+
+ #plate .grid, #discover .half, #form .grid, #menu .grid, footer .half{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+ }
+
+ .grid-text{
+    margin: 3rem 2px;
+ }
+
+ .order1{
+    order: 3;
+ }
+
+ .grid-img:nth-child(6){
+    order: 1;
+ }
+ .grid-text:nth-child(5){
+    order: 2;
+ }
+
+ .grid-img:nth-child(8){
+    order: 3;
+ }
+
+ .grid-text:nth-child(7){
+    order: 4;
+ }
+
+ footer .flex{
+    justify-content: center;
+ }
+
+ footer{text-align: center;}
+ footer .pad1{
+    padding: 30px;
+ }
+ footer p{
+    padding-right: 0;
+    padding-bottom: 30px;
+   
+ }
+}
+
+@media (max-width:1150px){
+   .flex{
+    flex-wrap: wrap;
+   }
+
+   #flavours .flex{
+    justify-content: center;
+   }
+
+   #flavours div img{
+     max-width: 55%;
+     margin: 2.5rem;
+   }
+
+   #flavour-cols .flex div:last-child{
+    margin-top: 2rem;
+   }
+   #menu .grid{
+    padding: 30px;
+}
+
+
+#quote p{
+    padding: 0 10px;
+    
+}
+
+  
+}
+
+@media (max-width:1510px) and (min-width:785px){
+    #plate .grid{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(6,1fr);
+    }
+
+    #menu .grid{
+        padding: 30px;
+    }
+
+    footer p{
+        padding-right: 20px;
+    }
+}
